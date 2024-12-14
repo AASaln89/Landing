@@ -1,9 +1,10 @@
 {
   "name": "landing",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "http-server": "^14.1.1"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.2",
     "parcel": "^2.13.2"
   }
 }
