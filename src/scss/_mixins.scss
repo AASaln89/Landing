@@ -1,0 +1,12 @@
+@mixin h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 64px;
+    font-weight: 900;
+}
+
+@mixin subTitle {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 400;
+}

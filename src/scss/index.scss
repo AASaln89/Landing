@@ -1,0 +1,28 @@
+@import './variables';
+@import './fonts';
+@import './mixins';
+@import './header.scss';
+@import './features.scss';
+@import './works.scss';
+@import './team.scss';
+@import './download.scss';
+@import './footer.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  html {
+    font-family: "Raleway", "Raleway", "sans-serif";
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
