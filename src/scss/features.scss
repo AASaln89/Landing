@@ -11,12 +11,19 @@
     @media (max-width: 1024px) {
         grid-template-columns: minmax(150px, 315px) minmax(150px, 315px) minmax(150px, 315px);
     }
+    @media (max-width: 320px) {
+        grid-template-columns: minmax(250px, 315px) ;
+    }
 }
 
 .features-wrap__item {
     margin: 0 5px;
     padding: 50px 0;
     @media (max-width: 1024px) {
+        padding: 25px 0;
+    }
+    @media (max-width: 320px) {
+        margin: 0;
         padding: 25px 0;
     }
 }
@@ -28,6 +35,10 @@
     @media (max-width: 1024px) {
         width: 85px;
         height: 85px;
+    }
+    @media (max-width: 320px) {
+        width: 75px;
+        height: 75px;
     }
 }
 
@@ -44,6 +55,9 @@
 
     @media (max-width: 1024px) {
         font-size: 18px;
+    }
+    @media (max-width: 320px) {
+        padding: 20px 0;
     }
 }
 

@@ -39,6 +39,9 @@
         font-size: 18px;
         width: 314px;
     }
+    @media (max-width: 320px) {
+        width: 279px;
+    }
 }
 
 // features

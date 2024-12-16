@@ -11,6 +11,9 @@
     @media (max-width: 1024px) {
         font-size: 24px;
     }
+    @media (max-width: 320px){
+        font-size: 18px;
+    }
 }
 
 .sub-download-title {
@@ -23,6 +26,9 @@
 
     @media (max-width: 1024px) {
         font-size: 14px;
+    }
+    @media (max-width: 320px){
+        font-size: 13px;
     }
 }
 

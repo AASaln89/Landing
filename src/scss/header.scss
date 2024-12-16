@@ -133,9 +133,5 @@
 
 .find-more-button {
     @include button;
-
-    @media (max-width: 1024px) {
-        width: 314px;
-    }
 }
 
